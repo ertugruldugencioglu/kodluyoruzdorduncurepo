@@ -5,31 +5,67 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sütlü İrmik Tatlısı</title>
+        <style>
+            body{
+                background-color: blanchedalmond;
+                margin: 0%;
+            }
+            .font-h1{
+                font-family: fantasy;
+            }
+            .content-img{
+                float: left;
+            }
+            .content-img img{
+                width: 80%;
+            }
+            .features{
+                list-style-type: none;
+            }
+            .features-item{
+                margin: 1%;
+                background-color: darkgoldenrod;
+                border-radius:100vw;
+                white-space: nowrap;
+
+            }
+            .font-h2{
+                font-family: fantasy;
+            }
+            .recipe{
+                float: right;
+                margin-right: 3vw;
+            }
+        </style>
     </head>
-    <body style="background-color: blanchedalmond;">
-            <!-- header-START -->
-            <header>
-                <h1 style="font-family: fantasy;">Annemin Sütlü İrmik Tatlısı</h1>
-                <p>Pratik ve lezzetli olan tarifler hiç unutulmaz mutlaka bir şekilde saklanır. Sütlü irmik tatlısı da o tariflerden birisi. Ana malzemesi süt ve irmik olan tatlının bisküvi ile uyumunu siz de beğeneceksiniz.</p>
-            </header>
-            <!-- header-END -->
+    <body>
+        <!-- header-START -->
+        <header>
+            <h1 class="font-h1">Annemin Sütlü İrmik Tatlısı</h1>
+            <p>Pratik ve lezzetli olan tarifler hiç unutulmaz mutlaka bir şekilde saklanır. Sütlü irmik tatlısı da o tariflerden birisi. Ana malzemesi süt ve irmik olan tatlının bisküvi ile uyumunu siz de beğeneceksiniz.</p>
+        </header>
+        <!-- header-END -->
+        <!-- section-START -->
+        <section>
             <!-- figure-START -->
-            <figure>
-                <img width="20%" src="https://github.com/ertugruldugencioglu/kodluyoruzdorduncurepo/blob/main/figures/irmik.png?raw=true">
+            <figure class="content-img">
+                <img src="img/irmik.png" alt="sütlü irmik tatlısı">
             </figure>
             <!-- figure-END -->
-            <!-- section-START -->
-            <section style="position: absolute; right: 20%; top: 15%;">
+            <!-- div-START -->
+            <div class="recipe">
                 <!-- article-START -->
                 <article>
-                    <p style="display: inline; margin-right: 1%; background-color: darkgoldenrod; border-radius:100vw;">4-6 kişilik</p>
-                    <p style="display: inline; margin-right: 1%; background-color: darkgoldenrod; border-radius:100vw;">Dilerseniz bir gün önceden yapıp soğumaya bırakabilirsiniz</p>
-                    <p style="display: inline; background-color: darkgoldenrod; border-radius: 1em;">30-40dk hazırlanma</p>
+                    <ul class="features">
+                        <li class="features-item">4-6 kişilik</li>
+                        <li class="features-item">Dilerseniz bir gün önceden yapıp soğumaya bırakabilirsiniz</li>
+                        <li class="features-item">30-40dk hazırlanma</li>
+                    </ul>
                 </article>
                 <!-- article-END -->
                 <!-- article-START -->
                 <article>
-                    <h2 style="font-family: fantasy;">Malzemeler:</h2>
+                    <h2 class="font-h2">Malzemeler:</h2>
                     <ul>
                         <li>1 paket kakaolu bisküvi</li>
                         <li>1 su bardağı şeker</li>
@@ -42,7 +78,7 @@
                 <!-- article-END -->
                 <!-- article-START -->
                 <article>
-                    <h2 style="font-family: fantasy;">Yapılışı:</h2>
+                    <h2 class="font-h2">Yapılışı:</h2>
                     <ol>
                         <li>Sütlü irmik tatlısı yapmak için öncelikle soğuk sütü tencereye alın.</li>
                         <li>Şeker ve irmiği ilave edin. Kısık ateşte boza kıvamına gelene kadar karıştırarak pişirin.</li>
@@ -57,10 +93,12 @@
                 <!-- article-END -->
                 <!-- article-START -->
                 <article>
-                    <h2 style="font-family: fantasy;">Afiyet Olsunn..</h2>
+                    <h2 class="font-h2">Afiyet Olsunn..</h2>
                 </article>
                 <!-- article-END -->
-            </section>
-            <!-- section-END -->
+            </div>
+            <!-- div-END -->
+        </section>
+        <!-- section-END -->
     </body>
 </html>
