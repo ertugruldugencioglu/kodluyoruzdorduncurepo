@@ -1,6 +1,5 @@
 # Kodluyoruz Dördüncü Repo
-Bu repo [kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğumuz dördüncü repo. İçerisinde bir adet README dosyası, proje içeriğinde kullanılan figürler ve proje öngörünümü, bir adet index.html barındırıyor.
-
+Bu repo [kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğumuz dördüncü repo. İçeriğinde sütlü irmik tatlısı tarifi verdim. İçerisindeki dosyalarda bir adet README , bir adet proje öngörünümü ve bir adet de index.html dosyası barındırıyor.
 ![index](https://github.com/ertugruldugencioglu/kodluyoruzdorduncurepo/blob/main/project%20view/index.png?raw=true)
 
 ## Installation
