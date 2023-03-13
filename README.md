@@ -1,4 +1,4 @@
-# Kodluyoruz Dördüncü Repo
+# Sütlü İrmik Tatlısı
 Bu repo [kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğumuz dördüncü repo. İçeriğinde sütlü irmik tatlısı tarifi verdim. İçerisindeki dosyalarda bir adet README , bir adet proje öngörünümü ve bir adet de index.html dosyası barındırıyor.
 ![index](https://github.com/ertugruldugencioglu/kodluyoruzdorduncurepo/blob/main/project%20view/index.png?raw=true)
 
